@@ -23,7 +23,7 @@ def callback(message: pubsub_v1.subscriber.message.Message) -> None:
         done.set()
 
 streaming_pull_future = subscriber.subscribe(subscription_path, callback=callback)
-print(f"🔔 Listening for messages on {subscription_path}...\n")
+print(f"Listening for messages on {subscription_path}...\n")
 
 done.wait(timeout=30)
 
