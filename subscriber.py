@@ -34,6 +34,6 @@ elapsed = end - start
 streaming_pull_future.cancel()
 subscriber.close()
 
-print(f"🟧 Total messages received: {counter}")
-print(f"🟧 Time elapsed: {elapsed:.2f} seconds.")
+print(f"Total messages received: {counter}")
+print(f"Time elapsed: {elapsed:.2f} seconds.")
 
