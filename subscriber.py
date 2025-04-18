@@ -1,3 +1,4 @@
+# Vlad Chevdar | CS410 Data Engineering
 from concurrent.futures import TimeoutError
 from google.cloud import pubsub_v1
 import time
