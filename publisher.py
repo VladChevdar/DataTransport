@@ -20,5 +20,5 @@ for f in futures:
     f.result()
 
 elapsed = time.time() - start
-print(f"✅ Published {len(records)} messages in {elapsed:.2f}s")
+print(f"Published {len(records)} messages in {elapsed:.2f}s")
 
